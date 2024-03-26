@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smoothie Order Form</title>
+    <link rel="stylesheet" href="./css/style.css"> <!-- Link to external CSS file for styling -->
+    <script src="./js/script.js" defer></script> <!-- Link to external JavaScript file with defer attribute -->
+</head>
+<body>
+    <div class="container"> <!-- Main container for the content -->
+        <h1>Order Your Smoothie Bowl</h1> <!-- Heading for the smoothie order form -->
+        <form id="smoothieForm"> <!-- Form for ordering a smoothie -->
+            <label for="flavor">Flavor:</label> <!-- Label for selecting the flavor -->
+            <input type="text" id="flavor" name="flavor" required><br><br> <!-- Input field for flavor selection -->
+            
+            <label for="base">Base:</label> <!-- Label for selecting the base -->
+            <select id="base" name="base" required> <!-- Dropdown menu for selecting the base -->
+                <option value="milk">Milk</option>
+                <option value="yogurt">Yogurt</option>
+                <option value="fruit juice">Fruit Juice</option>
+            </select><br><br>
+            
+            <label for="toppings">Toppings:</label><br> <!-- Label for selecting toppings -->
+            <input type="checkbox" id="chocolateChips" name="chocolateChips"> <!-- Checkbox for chocolate chips topping -->
+            <label for="chocolateChips">Chocolate Chips</label>
+            <img src="./images/smoothy.img3.jpeg" alt="Chocolate Chips" class="topping-image"><br> <!-- Image for chocolate chips topping -->
+
+            <input type="checkbox" id="banana" name="banana"> <!-- Checkbox for banana topping -->
+            <label for="banana">Banana</label>
+            <img src="./images/smoothy.img2.jpeg" alt="Banana" class="topping-image"><br> <!-- Image for banana topping -->
+
+            <input type="checkbox" id="strawberries" name="strawberries"> <!-- Checkbox for strawberries topping -->
+            <label for="strawberries">Strawberries</label>
+            <img src="./images/smoothy.img4.jpeg" alt="Strawberries" class="topping-image"><br><br> <!-- Image for strawberries topping -->
+            
+            <button type="submit">Order</button> <!-- Button for submitting the form -->
+        </form>
+
+        <div id="smoothieDetails"></div> <!-- Container for displaying smoothie details -->
+    </div> <!-- End of main container -->
+</body>
+</html>

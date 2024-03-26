@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/smoothy.img1.webp'); /* Background image for the body */
+    background-size: 100%; /* Set the size of the background image */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    color: #333; /* Text color */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    min-height: 65em; /* Minimum height of the body */
+}
+
+.container {
+    width: 60%; /* Width of the main content container */
+    padding: 0px; /* Padding around the container */
+    background-color: rgb(232 232 232 / 67%); /* Background color with transparency */
+    border-radius: 8px; /* Rounded corners for the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for the container */
+    text-align: center; /* Center align the content within the container */
+}
+
+h1 {
+    color: #000000; /* Heading color */
+}
+
+form {
+    margin-bottom: 20px; /* Margin bottom for the form */
+}
+
+label {
+    display: block; /* Display labels as block elements */
+    margin-bottom: 8px; /* Margin bottom for labels */
+    font-weight: bold; /* Bold font weight for labels */
+}
+
+input[type="text"],
+select,
+button,
+input[type="checkbox"] {
+    width: 70%; /*  width for form inputs */
+    padding: 10px; /* Padding for form inputs */
+    margin-bottom: 16px; /* Margin bottom for form inputs */
+    border: 1px solid #ccc; /* Border for form inputs */
+    border-radius: 4px; /* Border radius for form inputs */
+    box-sizing: border-box; /* Box sizing for form inputs */
+}
+
+button {
+    background-color: #4c5864; /* Background color for buttons */
+    color: #fff; /* Text color for buttons */
+    cursor: pointer; /* Set cursor to pointer for buttons */
+    border: none; /* Remove border from buttons */
+}
+
+button:hover {
+    background-color: #2d4259; /* Background color on hover for buttons */
+}
+
+.topping-image {
+    width: 70px; /* Size of topping images */
+    margin-right: 10px; /* Margin right for topping images */
+    vertical-align: middle; /* Align topping images vertically */
+}
+
+#smoothieDetails {
+    border-top: 1px solid #ccc; /* Border top for smoothie details */
+    padding-top: 20px; /* Padding top for smoothie details */
+}
+
+#smoothieDetails h2 {
+    margin-bottom: 16px; /* Margin bottom for smoothie details heading */
+}
+
+#smoothieDetails p {
+    margin-bottom: 8px; /* Margin bottom for smoothie details paragraphs */
+}
